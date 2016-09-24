@@ -21,10 +21,10 @@ body {
 	#grad1 {
 		height: 100%;
     		background: red; 
-    		background: -webkit-linear-gradient(red, yellow); 
-    		background: -o-linear-gradient(red, yellow); 
-    		background: -moz-linear-gradient(red, yellow); 
-    		background: linear-gradient(red, yellow); 
+    		background: -webkit-linear-gradient(black, gray); 
+    		background: -o-linear-gradient(black, gray); 
+    		background: -moz-linear-gradient(black, gray); 
+    		background: linear-gradient(black, gray); 
 	}
   font: 18px/1.4 $helvetica;
   color: #cccccc;
