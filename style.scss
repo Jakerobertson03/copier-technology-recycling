@@ -18,9 +18,17 @@ html {
 }
 
 body {
-	background-image: url("http://www.magneticdreams.com/wp-content/uploads/2011/08/mdOrangeBG1.jpg");
+	
   font: 18px/1.4 $helvetica;
   color: #cccccc;
+}
+
+#grad {
+    background: red; 
+    background: -webkit-linear-gradient(red, yellow); 
+    background: -o-linear-gradient(red, yellow); 
+    background: -moz-linear-gradient(red, yellow); 
+    background: linear-gradient(red, yellow); 
 }
 
 .container {
