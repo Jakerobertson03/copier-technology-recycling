@@ -18,15 +18,16 @@ html {
 }
 
 body {
+  font: 18px/1.4 $helvetica;
+  color: #cccccc;
+}
+
 #grad1 {
     background: gray;
     background: -webkit-linear-gradient(gray, black);
     background: -o-linear-gradient(gray, black);
     background: -moz-linear-gradient(gray, black);
     background: linear-gradient(gray, black);
-}
-  font: 18px/1.4 $helvetica;
-  color: #cccccc;
 }
 
 .container {
