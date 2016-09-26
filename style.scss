@@ -23,10 +23,6 @@ body {
 }
 
 .gradient{
-    background-image: gray;
-    background-image: -webkit-linear-gradient(gray, black);
-    background-image: -o-linear-gradient(gray, black);
-    background-image: -moz-linear-gradient(gray, black);
     background-image: linear-gradient(gray, black);
 }
 
