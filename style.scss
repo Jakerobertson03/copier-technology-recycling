@@ -23,7 +23,11 @@ body {
 }
 
 .gradient {
-    background-image: linear-gradient(gray, black);
+    background: gray;
+    background: -webkit-linear-gradient( 0deg, gray, black);
+    background: -o-linear-gradient( 0deg, gray, black);
+    background: -moz-linear-gradient( 0deg, gray, black);
+    background: linear-gradient(0deg, gray, black);
 }
 
 .container {
