@@ -18,27 +18,21 @@ html {
 }
 
 body {
-	background-image: url("http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+	background-color: #595959;
   font: 18px/1.4 $helvetica;
   color: #cccccc;
 }
 
-
 .container {
-  border-radius: 15px;
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  background-color: rgba(150, 192, 206, 0.15)
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #c25b56;
+  color: #999999;
   font-weight: bold;
 
   line-height: 1.7;
@@ -52,9 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  color: #c25b56;
+  color: #ff6600;
   a {
-    color: #c25b56;
+    color: #ff6600;
   }
 }
 
@@ -68,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #fef6eb;
+  color: #b3b3b3;
 }
 
 p {
@@ -90,7 +84,27 @@ ul, ol {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #74828f;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+	float: left;
+}
+
+li a:hover {
+    background-color: #beb9b5;
 }
 
 ol {
@@ -181,7 +195,7 @@ th, td {
 
 .masthead {
   padding: 20px 0;
-//  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
