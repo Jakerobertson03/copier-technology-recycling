@@ -2,19 +2,11 @@
 layout: default
 ---
 
----
-<div class="nav bar">
-  <article class="post">
-    <ul><li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li></ul>
-  </article>
-</div>
----
-
 <div class="imgWrap">
   <div class="posts">
     {% for post in site.posts %}
       <article class="post">
-
+          
         <h1 class="imgDescription"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
         <div class="entry">
