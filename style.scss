@@ -130,7 +130,6 @@ span.text-content {
   position: absolute;
   top: 0;
   width: auto;
-  padding-right:20px;
 }
 
 ul.img-list li:hover span.text-content {
@@ -142,11 +141,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: auto;
+  height: 150px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 720px;
+  width: 150px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -155,6 +154,7 @@ span.text-content {
 }
 
 span.text-content span {
+  display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
