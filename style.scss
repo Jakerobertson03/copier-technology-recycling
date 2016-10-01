@@ -125,11 +125,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: auto;
   left: 0;
   position: absolute;
   top: 0;
-  width: 150px;
+  width: auto;
 }
 
 ul.img-list li:hover span.text-content {
