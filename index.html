@@ -3,20 +3,34 @@ layout: default
 ---
 
 <div class="imgWrap">
-  <div class="posts">
-    {% for post in site.posts %}
-      <article class="post">
-        <img src="http://www.stcomputing.net/_include/img/slider-images/image01.jpg" alt="polaroid"/>
-        <h1 class="imgDescription"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <div>
+      <article>
+        <a href="/lesson-4-blog-30/09/16/">
+          <img src="http://www.stcomputing.net/_include/img/slider-images/image01.jpg" alt="polaroid"/>
+        </a>
+        <h1 class="imgDescription"><a href="/lesson-4-blog-30/09/16/">More CSS Upgrades</a></h1>
 
         <div class="entry">
           <div class="imgDescription">
-            {{ post.excerpt }}
+            <p>Lesson 4 - upgrading CSS again (so that my site is bearable)</p>
           </div>
         </div>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <a href="/lesson-4-blog-30/09/16/" class="read-more">Read More</a>
       </article>
-    {% endfor %}
+      <article>
+        <a href="/lesson-3-blog-24/09/16/">
+          <img src="https://www.ucl.ac.uk/isd/services/research-it/images/research-computing-platform-services.jpg" alt="polaroid"/>
+        </a>
+        <h1 class="imgDescription"><a href="/lesson-3-blog-24/09/16/">Stopping People Cringing</a></h1>
+
+        <div class="entry">
+          <div class="imgDescription">
+            <p>Lesson 3 - improving the style of this website so that you don't think that you're still in the 90's</p>
+          </div>
+        </div>
+
+        <a href="/lesson-3-blog-24/09/16/" class="read-more">Read More</a>
+      </article>
   </div>
 </div>
