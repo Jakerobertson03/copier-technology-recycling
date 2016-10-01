@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a student from Dr Challoners Grammar School who is writing this blog as a computing project.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I enjoy computing and am interested in coding and creating websites etc. If there are any improvements that you could suggest...
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ben.lee@challoners.org](mailto:ben.lee@challoners.org)
