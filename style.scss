@@ -134,6 +134,7 @@ ul.img-list li {
 	-webkit-transform: scale(1.4);
 	-moz-transform: scale(1.4);
 	transform: scale(1.4);
+	max-width: 720px;
 }
 
 ul.img-list li:hover span.text-content {
@@ -149,7 +150,7 @@ span.text-content {
   left: 0;
   position: absolute;
   top: 0;
-  width: 720px;
+  max-width: 720px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -172,7 +173,7 @@ li a {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: black;
 }
 
