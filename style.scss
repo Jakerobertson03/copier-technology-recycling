@@ -131,13 +131,6 @@ ul.img-list li {
   max-width: 720px;
 }
 
-.img-list li:hover img {
-	-webkit-transform: scale(1.4) 300ms;
-	-moz-transform: scale(1.4) 300ms;
-	transform: scale(1.4) 300ms;
-	max-width: 720px;
-}
-
 ul.img-list li:hover span.text-content {
   opacity: 1;
 }
