@@ -131,9 +131,9 @@ ul.img-list li {
 }
 
 .img-list li:hover img {
-	-webkit-transform: scale(1.4);
-	-moz-transform: scale(1.4);
-	transform: scale(1.4);
+	-webkit-transform: scale(1.4) 300ms;
+	-moz-transform: scale(1.4) 300ms;
+	transform: scale(1.4) 300ms;
 	max-width: 720px;
 }
 
@@ -150,7 +150,7 @@ span.text-content {
   left: 0;
   position: absolute;
   top: 0;
-  max-width: 720px;
+  width: 720px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
