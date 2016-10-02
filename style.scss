@@ -24,6 +24,7 @@ body {
 	background-position: center;
 	height: 100%;
   font: 18px/1.4 $helvetica;
+  font-face: "Lucida Console", Monaco, monospace;
   color: #cccccc;
 	margin: 0;
 }
@@ -78,11 +79,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #96c0ce;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #74828f;
   }
 }
 
