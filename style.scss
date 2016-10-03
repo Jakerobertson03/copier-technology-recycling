@@ -354,6 +354,7 @@ nav {
 //
 
 .posts > .post {
+  padding-top: 10px;
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
@@ -368,6 +369,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
+    padding-left: 15px;
     color: $gray;
     font-size: 22px;
     font-style: italic;
