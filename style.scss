@@ -120,7 +120,7 @@ ul.img-list {
   padding: 0;
   text-align: center;
   overflow: auto;
-  max-width: 720px;
+ // max-width: 720px;
 }
 
 ul.img-list li {
@@ -129,7 +129,7 @@ ul.img-list li {
   height: auto;
   margin: 0 1em 1em 0;
   position: relative;
-  max-width: 720px;
+ // max-width: 720px;
 }
 
 ul.img-list li:hover span.text-content {
@@ -360,6 +360,7 @@ nav {
   padding-top: 10px;
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  max-width: 720px
 }
 
 .posts > .post:last-child {
@@ -380,7 +381,7 @@ nav {
   }
 
 .post-header {
-	width: 921px;
+	max-width: 921px;
 	height: 550px;
 }
 	
