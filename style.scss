@@ -19,7 +19,7 @@ html {
 
 // nav-bar
 
-ul.nav-bar{
+ul.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -232,7 +232,7 @@ strong, b {
 }
 
 img {
-  max-width: 100%;
+  
 }
 
 table {
@@ -391,7 +391,7 @@ nav {
   padding-top: 10px;
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
-  max-width: 720px
+  max-width: 720px;
 }
 
 .posts > .post:last-child {
