@@ -17,37 +17,6 @@ html {
   font-size: 100%;
 }
 
-// nav-bar
-
-ul.nav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a.nav-bar {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-// end nav-bar
-
 body {
 	background-image: url("http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png");
 	background-repeat: no-repeat;
@@ -56,23 +25,23 @@ body {
 	background-height: 100%;
 	height: 100%;
   font: 18px/1.4 $helvetica;
-  font-family: "Helvetica", Helvetica, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   color: #cccccc;
 	margin: 0;
 }
 
 
 .container {
- // border-radius: 15px;
+  border-radius: 15px;
   margin: 0 auto;
- // max-width: 740px;
+  max-width: 740px;
   padding: 0 10px;
   width: 100%;
- // background-color: rgba(150, 192, 206, 0.55)
+  background-color: rgba(150, 192, 206, 0.55)
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", Helvetica, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   color: #c25b56;
   font-weight: bold;
 
@@ -131,7 +100,7 @@ ul {
     //position: fixed;
     height: auto;
     margin: 0 auto;
-   // max-width: 740px;
+    max-width: 740px;
     padding: 0 10px;
     width: 100%;
 }
@@ -140,7 +109,7 @@ ul {
 
 span {
     font-size: 24px;
-    font-family: "Helvetica", Helvetica, sans-serif;
+    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
     color: #fef6eb;
 }
@@ -151,7 +120,7 @@ ul.img-list {
   padding: 0;
   text-align: center;
   overflow: auto;
- // max-width: 720px;
+  max-width: 720px;
 }
 
 ul.img-list li {
@@ -160,7 +129,7 @@ ul.img-list li {
   height: auto;
   margin: 0 1em 1em 0;
   position: relative;
- // max-width: 720px;
+  max-width: 720px;
 }
 
 ul.img-list li:hover span.text-content {
@@ -232,7 +201,7 @@ strong, b {
 }
 
 img {
-  
+  max-width: 100%;
 }
 
 table {
@@ -340,7 +309,7 @@ th, td {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: "Helvetica", Helvetica, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 36px;
   letter-spacing: 1px;
@@ -359,7 +328,7 @@ th, td {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: "Helvetica", Helvetica, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 18px;
 
   @include mobile {
@@ -391,7 +360,6 @@ nav {
   padding-top: 10px;
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
-  max-width: 720px;
 }
 
 .posts > .post:last-child {
@@ -408,14 +376,9 @@ nav {
     color: #beb9b5;
     font-size: 22px;
     font-style: italic;
-//    background-color: rgb(150, 192, 206)
+    background-color: rgb(150, 192, 206)
   }
 
-.post-header {
-	max-width: 921px;
-	height: 550px;
-}
-	
   .comments {
     margin-top: 10px;
   }
@@ -435,7 +398,7 @@ nav {
 
 body {
   font: 16px/1.4 arial;
-  font-family: "Helvetica", Helvetica, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 footer {
@@ -449,4 +412,3 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-
