@@ -40,6 +40,15 @@ body {
   background-color: rgba(255, 255, 255, 0.35)
 }
 
+.container.masthead {
+  border-radius: 15px;
+  margin: 0 auto;
+ // max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.35)
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Courier New", Courier, monospace;
   color: #c25b56;
