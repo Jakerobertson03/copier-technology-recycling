@@ -143,7 +143,7 @@ ul.img-list {
 }
 
 ul.img-list li {
-  padding-top: 15px;
+ // padding-top: 15px;
   //padding-left: 20px;
   display: inline-block;
   height: auto;
@@ -203,6 +203,10 @@ li a.active {
 li a:hover:not(.active) {
     background-color: #555;
     color: gray;
+}
+
+img.text-on-top {
+  padding-top: 15px;
 }
 
 // end of image - text settings
