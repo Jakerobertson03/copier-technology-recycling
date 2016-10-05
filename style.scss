@@ -184,6 +184,7 @@ li a {
 li a.active {
     background-color: #4caf50;
     color: black;
+    border-radius: 15px;
 }
 
 li a:hover:not(.active) {
