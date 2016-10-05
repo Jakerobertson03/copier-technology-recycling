@@ -132,11 +132,11 @@ ul.img-list {
   max-width: 720px;
   border-radius: 15px;
   padding-left: 8px;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 ul.img-list li {
-  padding-top: 10px;
+  padding-top: 12px;
   //padding-left: 20px;
   display: inline-block;
   height: auto;
@@ -162,7 +162,7 @@ span.text-content {
   position: absolute;
   top: 0;
   width: 704px;
-  padding-top: 30px;
+  padding-top: 20px;
   opacity: 0;
   border-radius: 15px;
   -webkit-transition: opacity 500ms;
