@@ -75,23 +75,28 @@ h1 {
 
 h2 {
   font-size: 24px;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 h4 {
   font-size: 18px;
+  font-weight: bold;
   color: #fef6eb;
 }
 
 p {
   margin: 15px 0;
+  font-weight: bold;
 }
 
 a {
   color: #96c0ce;
+  font-weight: bold;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -260,6 +265,7 @@ th, td {
 
 .date {
   font-style: italic;
+  font-weight: bold;
   color: #d3d9de;
 }
 
@@ -347,6 +353,7 @@ th, td {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  font-weight: bold;
 
   @include mobile {
     margin: 3px 0;
@@ -370,7 +377,7 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 1px;
 
     @include mobile {
@@ -427,6 +434,7 @@ nav {
 body {
   font: 16px/1.4 arial;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 
 footer {
