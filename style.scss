@@ -321,7 +321,7 @@ th, td {
 //  border-bottom: 1px solid $lightGray;
   position: fixed;
   background-color: #ffffff;
-  box-shadow: 1px 1px 10px rgba(0, 0,0, 0.5);
+  box-shadow: 1px 1px 30px rgba(0, 0,0, 0.8);
   width: 100%;
   z-index: +32000;
 
@@ -381,7 +381,7 @@ th, td {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  padding-right: 20px;
+  padding-right: 30px;
   font-family: "Courier New", Courier, monospace;
   font-size: 22px;
 
