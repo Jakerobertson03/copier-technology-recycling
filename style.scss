@@ -306,7 +306,9 @@ th, td {
 
 .wrapper-masthead {
   margin-bottom: 50px;
- // background-colour: #ffffff;
+  background-colour: #ffffff;
+  position: fixed;
+  width: 100%;
 }
 
 .masthead {
