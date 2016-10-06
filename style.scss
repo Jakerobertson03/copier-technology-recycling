@@ -306,11 +306,13 @@ th, td {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  position: fixed;
 }
 
 .masthead {
   padding: 20px 0;
 //  border-bottom: 1px solid $lightGray;
+  position: fixed;
 
   @include mobile {
     text-align: center;
