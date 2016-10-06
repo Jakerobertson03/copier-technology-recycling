@@ -360,7 +360,7 @@ th, td {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: dark-gray;
+  color: white;
   font-size: 16px;
   font-weight: bold;
 
@@ -374,6 +374,7 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
+  color: gray;
 
   @include mobile {
     float: none;
