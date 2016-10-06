@@ -312,7 +312,7 @@ th, td {
   width: 100%;
   top: 0px;
   z-index: +32000;
-  margin-left: -154px;
+  margin-left: -152px;
   box-shadow: 1px 1px 30px rgba(0, 0,0, 0.8);
 }
 
@@ -335,6 +335,7 @@ th, td {
   width: 100px;
   height: 100px;
   margin-right: 15px;
+  padding-left: 10px;
 
   @include mobile {
     float: none;
