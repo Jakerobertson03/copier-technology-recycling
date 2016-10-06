@@ -324,7 +324,7 @@ th, td {
   box-shadow: 1px 1px 30px rgba(0, 0,0, 0.8);
   width: 100%;
   z-index: +32000;
-
+  text-allign: center;
   @include mobile {
     text-align: center;
   }
