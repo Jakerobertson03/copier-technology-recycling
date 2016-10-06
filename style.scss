@@ -312,9 +312,9 @@ th, td {
 .masthead {
   padding: 20px 0;
 //  border-bottom: 1px solid $lightGray;
-  position: fixed;
-  background-colour: #ffffff;
-  width: 940px;
+ // position: fixed;
+ // background-colour: #ffffff;
+ // width: 940px;
 
   @include mobile {
     text-align: center;
