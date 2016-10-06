@@ -93,6 +93,7 @@ h4 {
 p {
   margin: 15px 0;
   font-weight: bold;
+  color: #000000;
 }
 
 a {
@@ -363,7 +364,7 @@ th, td {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: white;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
 
@@ -377,7 +378,6 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
-  color: gray;
 
   @include mobile {
     float: none;
@@ -388,7 +388,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: dark-gray;
+    color: #000000;
     text-align: right;
     font-weight: 700;
     letter-spacing: 1px;
