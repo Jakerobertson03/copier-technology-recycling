@@ -325,6 +325,8 @@ th, td {
   width: 100%;
   z-index: +32000;
   text-allign: center;
+  margin-left: -152px;
+
   @include mobile {
     text-align: center;
   }
