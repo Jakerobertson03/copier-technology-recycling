@@ -186,6 +186,16 @@ span.text-content span {
   vertical-align: middle;
 }
 
+span.text-content span.title-post {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.text-content span.date-post {
+  font-size: 18px;
+  font-weight: normal;
+}
+
 li a {
     margin: 0;
     display: block;
