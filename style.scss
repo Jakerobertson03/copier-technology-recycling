@@ -454,12 +454,13 @@ th, td {
             display: inline;
             margin-left: 400px;
             overflow: hidden;
+            max-height: 105px;
         }
 
         #nav li{
             display: inline-block;
             border-radius: 0px;
-            height: 105px;
+            max-height: 105px;
             overflow: hidden;
         }
 
@@ -467,7 +468,7 @@ th, td {
             float: right;
             display: inline-block;
             border-radius: 0px;
-            height: 105px;
+            max-height: 105px;
            // padding: 10px;
             overflow: hidden;
         }
@@ -484,7 +485,7 @@ th, td {
             text-align: center;
             padding: 4px;
             border-radius: 0px;
-            height: 105px;
+            max-height: 105px;
         }
 
         nav a:hover, a:active {
