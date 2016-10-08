@@ -405,7 +405,7 @@ th, td {
    padding-bottom: 30px;
    font-family: "Courier New", Courier, monospace;
    font-size: 22px;
-   background-colour: #e2e9e7;
+   background-color: #e2e9e7;
  
    @include mobile {
      float: none;
@@ -422,7 +422,8 @@ th, td {
      font-weight: 700;
      letter-spacing: 1px;
      display: inline-block;
-     background-colour: #e2e9e7;
+     background-color: #e2e9e7;
+     border-radius: 0px;
  
      @include mobile {
        margin: 0 10px;
