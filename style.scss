@@ -392,18 +392,37 @@ th, td {
   }
 }
 
+// navigation bar
+
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  padding-right: 40px;
+  list style type: none;
+ // margin-top: 23px; // @TODO: Vertically middle align
+ // padding-right: 40px;
   font-family: "Courier New", Courier, monospace;
   font-size: 22px;
+  overflow: hidden;
+  background-color: #ffff00
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
     font-size: 16px;
+  }
+
+  li.nav-bar-top a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li a:hover:not (.active-nav) {
+    background-color: gray;
+  }
+
+  .active-nav {
+    background-color: #ffffff;
   }
 
   a {
@@ -419,6 +438,8 @@ nav {
     }
   }
 }
+
+// end navigation bar
 
 //
 // .main
