@@ -452,18 +452,20 @@ th, td {
 
         #nav ul {
             display: inline;
+            margin-left: 400px;
         }
 
         #nav li{
             display: inline-block;
             border-radius: 0px;
+            height: 105px;
         }
 
         #nav a{
             float: right;
             display: inline-block;
             border-radius: 0px;
-           // padding:10px;
+           // padding: 10px;
         }
 
         nav a:link, a:visited {
@@ -475,6 +477,7 @@ th, td {
             background-color: #e2e9e7;
             text-align: center;
             padding: 4px;
+            border-radius: 0px;
         }
 
         nav a:hover, a:active {
