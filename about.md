@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /#about/
+permalink: /about/
 ---
 
 I am a student from Dr Challoners Grammar School who is writing this blog as a computing project.
