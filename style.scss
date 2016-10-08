@@ -397,8 +397,8 @@ th, td {
 
 nav {
   float: right;
-//  height: 105px;
- // width: 400px;
+  max-height: 105px;
+  width: 400px;
   list-style-type: none;
 //  margin-top: 23px; // @TODO: Vertically middle align
   margin-right: 40px;
@@ -407,7 +407,7 @@ nav {
 //  overflow: hidden;
   background-color: #e2e9e7;
   border-radius: 0px;
-//  text-align: center;
+  text-align: center;
 
   @include mobile {
     float: none;
@@ -443,7 +443,7 @@ nav {
     padding-bottom: 35px;
     max-height: 105px;
     color: #000000;
-    text-align: right;
+    text-align: center;
     font-weight: 700;
     letter-spacing: 1px;
     list-style-type: none;
