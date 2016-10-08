@@ -398,8 +398,8 @@ nav {
   float: right;
  // height: 
   list-style-type: none;
-   margin-top: 23px; // @TODO: Vertically middle align
- // padding-right: 40px;
+  margin-top: 23px; // @TODO: Vertically middle align
+  margin-right: 40px;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
   overflow: hidden;
@@ -409,7 +409,7 @@ nav {
   @include mobile {
     float: none;
     margin-top: 9px;
-    display: block;
+    display: block inline;
     font-size: 16px;
   }
 
