@@ -402,7 +402,8 @@ nav {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   overflow: hidden;
-  background-color: #ffff00;
+  background-color: #dbe6f0;
+  border-radius: 0px;
 
   @include mobile {
     float: none;
@@ -422,7 +423,7 @@ nav {
     background-color: gray;
   }
 
-  .active-nav {
+  :target {
     background-color: #ffffff;
   }
 
