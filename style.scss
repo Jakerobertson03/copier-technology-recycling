@@ -453,12 +453,14 @@ th, td {
         #nav ul {
             display: inline;
             margin-left: 400px;
+            overflow: hidden;
         }
 
         #nav li{
             display: inline-block;
             border-radius: 0px;
             height: 105px;
+            overflow: hidden;
         }
 
         #nav a{
@@ -467,10 +469,12 @@ th, td {
             border-radius: 0px;
             height: 105px;
            // padding: 10px;
+            overflow: hidden;
         }
 
         nav a:link, a:visited {
             display: block;
+            overflow: hidden;
             margin-left: 400px;
             width: 100%;
             font-weight: bold;
