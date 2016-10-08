@@ -404,10 +404,11 @@ nav {
   margin-right: 40px;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
-//  overflow: hidden;
+  overflow: hidden;
   background-color: #e2e9e7;
   border-radius: 0px;
   text-align: center;
+  display: inline-block;
 
   @include mobile {
     float: none;
