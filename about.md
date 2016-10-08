@@ -12,4 +12,4 @@ I enjoy computing and am interested in coding and creating websites etc. If ther
 
 <h1>Contact me</h1>
 
-<p>[ben.lee@challoners.org](mailto:ben.lee@challoners.org)</p>
+<p>Using either the email address 'ben.lee@challoners.org' or the mail icon below</p>
