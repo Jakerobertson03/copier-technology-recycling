@@ -402,10 +402,10 @@ th, td {
    float: right;
    padding-top: 18px; // @TODO: Vertically middle align
    padding-right: 40px;
-   padding-bottom: 30px;
+   padding-bottom: 0px;
    font-family: "Courier New", Courier, monospace;
    font-size: 22px;
-   //background-color: #e2e9e7;
+   background-color: #e2e9e7;
    list-style-type: none;
  
    @include mobile {
@@ -423,7 +423,7 @@ th, td {
      font-weight: 700;
      letter-spacing: 1px;
      display: inline-block;
-    // background-color: #e2e9e7;
+     background-color: #e2e9e7;
      border-radius: 0px;
  
      @include mobile {
