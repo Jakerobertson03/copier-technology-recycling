@@ -449,6 +449,7 @@ nav {
     letter-spacing: 1px;
     list-style-type: none;
     display: inline-block;
+    overflow: hidden;
 
     @include mobile {
       margin: 0 10px;
