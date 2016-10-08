@@ -397,49 +397,50 @@ th, td {
 
 nav {
   float: right;
-  height: 105px;
-  width: 400px;
-  list-style-type: none;
+//  height: 105px;
+ // width: 400px;
+ // list-style-type: none;
 //  margin-top: 23px; // @TODO: Vertically middle align
   margin-right: 40px;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
-  overflow: hidden;
+//  overflow: hidden;
   background-color: #e2e9e7;
   border-radius: 0px;
-  text-align: center;
+//  text-align: center;
 
   @include mobile {
     float: none;
     margin-top: 9px;
+    display: block;
     font-size: 16px;
   }
 
-  nav.nav-bar-top li {
-  display: inline;
-  height: 105px;
-  }
+ // nav.nav-bar-top li {
+ // display: inline;
+ // height: 105px;
+//  }
 
-  li.nav-bar-top a {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    border: 0px;
-    border-radius: 0px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    width: 130px;
-    height: 100%;
-  }
+ // li.nav-bar-top a {
+  //  display: inline-block;
+  //  text-align: center;
+  //  text-decoration: none;
+   // border: 0px;
+ //   border-radius: 0px;
+ //   padding-top: 35px;
+ //   padding-bottom: 35px;
+//    width: 130px;
+//    height: 100%;
+//  }
 
-  li a:hover:not(.active-nav) {
-    background-color: gray;
-  }
+//  li a:hover:not(.active-nav) {
+//    background-color: gray;
+//  }
 
   a {
     margin-left: 20px;
     color: #000000;
-    text-align: center;
+    text-align: right;
     font-weight: 700;
     letter-spacing: 1px;
 
