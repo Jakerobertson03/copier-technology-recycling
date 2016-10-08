@@ -400,12 +400,13 @@ th, td {
 
  nav {
    float: right;
-   margin-top: 18px; // @TODO: Vertically middle align
+   padding-top: 18px; // @TODO: Vertically middle align
    padding-right: 40px;
    padding-bottom: 30px;
    font-family: "Courier New", Courier, monospace;
    font-size: 22px;
    background-color: #e2e9e7;
+   list-style-type: none;
  
    @include mobile {
      float: none;
