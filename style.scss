@@ -407,7 +407,8 @@ th, td {
    font-size: 22px;
    background-color: #e2e9e7;
    list-style-type: none;
- 
+   height: 105px;
+
    @include mobile {
      float: none;
      margin-top: 9px;
