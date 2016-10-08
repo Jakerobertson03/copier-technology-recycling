@@ -448,6 +448,7 @@ nav {
     font-weight: 700;
     letter-spacing: 1px;
     list-style-type: none;
+    display: inline-block;
 
     @include mobile {
       margin: 0 10px;
