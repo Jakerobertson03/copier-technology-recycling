@@ -410,6 +410,7 @@ th, td {
    background-color: #e2e9e7;
    list-style-type: none;
    height: 105px;
+   text-align: center;
 
    @include mobile {
      float: none;
