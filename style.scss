@@ -365,8 +365,8 @@ th, td {
 }
 
 .site-info {
-  //float: left;
-  margin-right: 50px;
+  float: left;
+  //margin-right: 50px;
   text-align: center;
 
   @include mobile {
