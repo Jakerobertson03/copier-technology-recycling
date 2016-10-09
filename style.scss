@@ -366,6 +366,7 @@ th, td {
 
 .site-info {
   float: left;
+  padding-left: 20px;
 
   @include mobile {
     float: none;
