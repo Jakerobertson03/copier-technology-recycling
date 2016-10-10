@@ -350,8 +350,8 @@ th, td {
   height: 105px;
   padding-right: 45px;
   padding-left: 45px;
-  padding-top: 10px;
-  //box-shadow: inset 0 0 10px rgba(0, 0,0, 0.5);
+  padding-top: 5px;
+  //box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: #e2e9e7;
 
   @include mobile {
