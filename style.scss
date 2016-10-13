@@ -450,6 +450,7 @@ th, td {
      display: inline-block;
    //  background-color: #e2e9e7;
      border-radius: 0px;
+     width: 100%;
  
      @include mobile {
        margin: 0 10px;
