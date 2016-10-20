@@ -488,6 +488,7 @@ th, td {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    top: 0;
    }
 
     .dropdown {
@@ -499,11 +500,12 @@ th, td {
       z-index: 30001;
       display: none;
       border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
      // margin-right: -5px;
       right: 0px;
       margin-top: -16px;
       position: absolute;
-      background-color: rgba(77, 77, 77, 0.6);
+      background-color: rgba(50, 50, 50, 0.6);
       min-width: 160px;
       box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
     }
