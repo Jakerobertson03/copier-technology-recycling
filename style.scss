@@ -482,12 +482,11 @@ th, td {
     margin-top: -40px;
     margin-right: -20px;
     color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px;
+  //  padding-bottom: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    z-index: 30001;
    }
 
     .dropdown {
@@ -496,6 +495,7 @@ th, td {
     }
 
     .dropdown-content {
+      z-index: 30001;
       display: none;
       border-radius: 10px;
       margin-right: -3px;
