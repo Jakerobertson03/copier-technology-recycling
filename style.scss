@@ -507,7 +507,7 @@ th, td {
       margin-top: -25px;
       position: absolute;
       background-color: rgba(191, 191, 191, 0.6);
-      width: 160px;
+      width: 260px;
       box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
@@ -537,7 +537,7 @@ th, td {
 	 
     .dropdown-content a:hover {
       background-color: rgba(242, 242, 242, 0.6);
-      width: 220px;
+      width: 320px;
    //   -webkit-transition: all 0.6s ease-in-out;
   //    -moz-transition: all 0.6s ease-in-out;
    //   -o-transition: all 0.6s ease-in-out;
@@ -557,7 +557,8 @@ th, td {
      list-style-type: none;
      //margin-left: 20px;
     // color: #000000;
-     text-align: center;
+     text-align: left;
+     float: left;
      font-weight: 700;
      letter-spacing: 1px;
      display: inline-block;
