@@ -504,14 +504,14 @@ th, td {
 
     .dropdown-content {
       z-index: 30001;
-      display: none;
+      display: block;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
      // margin-right: -5px;
       right: 0px;
       margin-top: -25px;
       position: absolute;
-      background-color: rgba(191, 191, 191, 0.6);
+      background-color: rgba(191, 191, 191, 0);
       width: 220px;
       box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
       -webkit-transition: all 0.6s ease-in-out;
@@ -556,6 +556,7 @@ th, td {
 
     .dropdown:hover .dropdown-content {
       display: block;
+      background-color: rgba(191, 191, 191, 0.6);
     }
 
     .dropdown:hover .dropbtn {
