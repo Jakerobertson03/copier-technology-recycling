@@ -511,10 +511,10 @@ th, td {
       right: 0px;
       margin-top: -25px;
       position: absolute;
-      background-color: rgba(191, 191, 191, 0);
+      background-color: rgba(191, 191, 191, 0.6);
       width: 220px;
       opacity: 0;
-      box-shadow: 10px 8px 16px 0px rgba(0,0,0,0);
+      box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.2);
       -webkit-transition: all 0.6s ease-in-out;
       -moz-transition: all 0.6s ease-in-out;
       -o-transition: all 0.6s ease-in-out;
