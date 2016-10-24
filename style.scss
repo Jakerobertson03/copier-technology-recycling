@@ -304,6 +304,8 @@ img {
 //  border-radius: 15px;
 }
 
+// Table rules
+
 table {
 	border-collapse: collapse;
 	width: 100%;
@@ -318,12 +320,12 @@ th {
         font-size: 20px;
         font-weight: bold;
 	color: #ffffff;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
 }
 
 td {
         font-weight: bold;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
 }
 
 th, td {
@@ -331,6 +333,8 @@ th, td {
 	border-bottom: 1px solid #ddd;
 	color: #ffffff;
 }
+
+// End table rules
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
