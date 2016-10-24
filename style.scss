@@ -161,6 +161,7 @@ ul.img-list {
   border-radius: 15px;
   padding-left: 8px;
   padding-top: 15px;
+  overflow: none;
 }
 
 ul.img-list li {
@@ -654,8 +655,8 @@ body {
 footer {
   padding: 20px 0;
   text-align: center;
-//  position: fixed;
-  //background-color: #C25B56;
+  position: fixed;
+  background-color: #FFFFFF;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
