@@ -512,15 +512,11 @@ th, td {
     .dropdown {
       position: relative;
       display: inline-block;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
     }
 
     .dropdown-content {
       z-index: 30001;
-      display: none;
+      visibility: hidden;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
      // margin-right: -5px;
@@ -581,6 +577,7 @@ th, td {
 
     .dropdown:hover .dropdown-content {
       display: block;
+      visibility: visible;
       background-color: rgba(191, 191, 191, 0.6);
       box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
       opacity: 1;
