@@ -570,7 +570,7 @@ th, td {
       color: #000000;  
 	 }
 
-    nav:hover.dropdown .dropdown-content {
+    nav:hover > .dropdown .dropdown-content {
       display: block;
       background-color: rgba(191, 191, 191, 0.6);
       box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
