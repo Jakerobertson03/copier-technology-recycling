@@ -313,7 +313,6 @@ table {
 
 table, th, td {
 	color: #ffffff;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 th {
@@ -321,10 +320,12 @@ th {
         font-size: 20px;
         font-weight: bold;
 	color: #ffffff;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 td {
     //    font-weight: bold;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 th, td {
