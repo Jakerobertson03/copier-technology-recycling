@@ -181,6 +181,7 @@ ul.img-list li {
 
 ul.img-list li:hover span.text-content {
   opacity: 1;
+  padding-bottom: 0px;
 }
 
 span.text-content {
@@ -193,13 +194,13 @@ span.text-content {
   position: absolute;
   top: 0;
   width: 704px;
- // padding-top: 20px;
+  padding-bottom: 60px;
   opacity: 0;
   border-radius: 15px;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
 }
 
 span.text-content.wk6 {
@@ -275,6 +276,7 @@ li a:hover:not(.active) {
 
 img.text-on-top {
   padding-top: 15px;
+  clip: rect(0px, 720px, 330px, 0px);
 }
 
 // end of image - text settings
