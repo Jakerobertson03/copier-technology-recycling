@@ -197,10 +197,10 @@ span.text-content {
   padding-bottom: 100px;
   opacity: 0;
   border-radius: 15px;
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -o-transition: all 500ms;
-  transition: all 500ms;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 span.text-content.wk6 {
