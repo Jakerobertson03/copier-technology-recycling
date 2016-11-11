@@ -495,7 +495,7 @@ th, td {
    }
     
    .dropbtn {
-  //  background-color: #e0e0e0;
+  //  background-color: #4CAF50;
     margin-top: -30px;
   //  margin-right: -21px;
     color: white;
@@ -506,7 +506,6 @@ th, td {
     border: none;
     cursor: pointer;
     top: 0;
-    width: 105px;
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     clip: rect(0px,150px,105px,0px);
@@ -586,9 +585,9 @@ th, td {
       opacity: 1;
     }
 
-  //  .dropdown:hover .dropbtn {
-     // background-color: rgba(0, 0, 0, 0.2);
-  //  }
+    .dropdown:hover .dropbtn {
+      background-color: rgba(0, 0, 0, 0);
+    }
 
    a {
      list-style-type: none;
