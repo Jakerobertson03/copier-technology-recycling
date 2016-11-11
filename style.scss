@@ -197,10 +197,10 @@ span.text-content {
   padding-bottom: 100px;
   opacity: 0;
   border-radius: 15px;
-  -webkit-transition: opacity 500ms; 
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+  -webkit-transition: all 500ms; 
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
   -webkit-transition: padding 600ms;
   -moz-transition: padding 600ms;
   -o-transition: padding 600ms;
