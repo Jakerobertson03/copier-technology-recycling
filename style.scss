@@ -507,6 +507,8 @@ th, td {
     cursor: pointer;
     top: 0;
     background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    clip: rect(0px,150px,105px,0px);
    }
 
     .dropdown {
