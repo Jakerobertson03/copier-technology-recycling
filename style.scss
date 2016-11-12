@@ -79,8 +79,10 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   color: #c25b56;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   a {
     color: #c25b56;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -276,7 +278,7 @@ li a.active {
 
 li a:hover:not(.active) {
     background-color: #555;
-    color: gray;
+    color: #c25b56;
 }
 
 img.text-on-top {
@@ -327,7 +329,7 @@ th {
         font-size: 20px;
         font-weight: bold;
 	color: #ffffff;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 td {
