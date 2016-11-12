@@ -75,25 +75,9 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   color: #c25b56;
-  padding-bottom: 5px;
   a {
     color: #c25b56;
   }
-}
-
-h1:before{
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    border-bottom: 1px solid #c25b56;
-    transition: all 0.5s ease;
-}
-
-h1:before:hover {
-    width: 100%
 }
 
 h2 {
@@ -468,15 +452,26 @@ th, td {
   font-size: 36px;
   letter-spacing: 1px;
   text-decoration: none;
+  padding-bottom: 5px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-.site-name:hover {
-  text-decoration: underline;
-  color: #c25b56;
+.site-name:before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #c25b56;
+    transition: all 0.5s ease;
+}
+
+.site-name:before:hover {
+    width: 100%
 }
 
 .site-description {
