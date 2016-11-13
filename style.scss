@@ -536,7 +536,7 @@ th, td {
     cursor: pointer;
     top: 0;
     background-color: rgba(0, 0, 0, 0);
-    z-index: +30001;
+    z-index: +32001;
    }
 
     .dropdown {
@@ -545,7 +545,7 @@ th, td {
     }
 
     .dropdown-content {
-      z-index: -3000;
+      z-index: -30000;
       visibility: hidden;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
