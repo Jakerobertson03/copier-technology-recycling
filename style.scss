@@ -552,8 +552,8 @@ th, td {
       z-index: -32001;
       visibility: hidden;
       border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      right: 0px;
+     // border-bottom-right-radius: 10px;
+     // right: 0px;
       margin-top: -25px;
       margin-right: -220px;
       position: absolute;
@@ -613,6 +613,7 @@ th, td {
       opacity: 1;
       margin-top: -25px;
       margin-right: 0px;
+      right: 0px;
     }
 
     .dropdown:hover .dropbtn {
