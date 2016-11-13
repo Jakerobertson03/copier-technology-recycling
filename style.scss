@@ -545,7 +545,7 @@ th, td {
     }
 
     .dropdown-content {
-      z-index: +300;
+      z-index: -300;
       visibility: hidden;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
