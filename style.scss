@@ -154,7 +154,7 @@ ul {
 span {
     font-size: 24px;
     font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: 500;
    // font-weight: bold;
     color: #fef6eb;
 }
@@ -404,7 +404,7 @@ th, td {
   max-height: 105px;
 //  border-bottom: 1px solid $lightGray;
   position: fixed;
-  background-color: #eaeaea;
+  background-color: #000000;
 //  background-color: #dbe6f0;
   box-shadow: 1px 1px 30px rgba(0, 0,0, 0.8);
   width: 100%;
@@ -485,7 +485,7 @@ th, td {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
 
