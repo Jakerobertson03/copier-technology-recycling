@@ -79,7 +79,7 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   color: #c25b56;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.3);
   a {
     color: #c25b56;
     text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
@@ -404,7 +404,7 @@ th, td {
   max-height: 105px;
 //  border-bottom: 1px solid $lightGray;
   position: fixed;
-  background-color: #4d4d4d;
+  background-color: #3d3d3d;
 //  background-color: #dbe6f0;
   box-shadow: 1px 1px 30px rgba(0, 0,0, 0.8);
   width: 100%;
@@ -462,7 +462,7 @@ th, td {
   letter-spacing: 1px;
   text-decoration: none;
   padding-bottom: 5px;
-  color: #ff6633;
+  color: #3d3d3d;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
