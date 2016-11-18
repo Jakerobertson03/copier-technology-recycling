@@ -318,7 +318,8 @@ li a:hover:not(.active) {
 
 img.text-on-top {
   clip: rect(0px, 720px, 330px, 0px);
-  background-position: fixed;
+  position: fixed;
+  z-index: -30000;
 }
 
 // end of image - text settings
