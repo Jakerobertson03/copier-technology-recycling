@@ -134,8 +134,8 @@ ul {
     //position: fixed;
     height: auto;
     margin: 0 auto;
-    max-width: 740px;
-    padding: 0 10px;
+  //  max-width: 740px;
+   // padding: 0 10px;
     width: 100%;
 }
 
@@ -188,6 +188,7 @@ ul.img-list li {
  // box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   //background-color: rgba(150, 150, 150, 0.5);
   overflow: hidden;
+  padding: 0;
 }
 
 ul.img-list li:hover span.text-content {
