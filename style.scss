@@ -268,6 +268,7 @@ span.text-content span.learning-theme {
   color: #000000;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   width: 100%;
+  padding: 0;
 }
 
 .welcome-header {
@@ -276,11 +277,13 @@ span.text-content span.learning-theme {
   text-align: center;
   color: #000000;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  padding: 0;
 }
 
 span.text-content span.date-post {
   font-size: 18px;
   font-weight: normal;
+  padding: 0;
 }
 
 li a {
@@ -291,6 +294,7 @@ li a {
     padding-top: 0px;
     text-decoration: none;
   //  border-radius: 15px;
+    padding: 0;
 }
 
 li a.active {
@@ -335,6 +339,7 @@ strong, b {
 img {
   width: 100%;
 //  border-radius: 15px;
+  padding: 0;
 }
 
 // Table rules
