@@ -322,7 +322,7 @@ li a:hover:not(.active) {
 img.text-on-top {
   height: 325px;
   overflow: hidden;
-  //position: fixed;
+  position: relative;
   z-index: -30000;
 }
 
