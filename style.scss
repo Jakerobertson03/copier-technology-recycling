@@ -201,7 +201,7 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 275px;
+  height: 350px;
   left: 0;
   position: absolute;
   top: 0;
@@ -320,9 +320,10 @@ li a:hover:not(.active) {
 }
 
 img.text-on-top {
-  clip: rect(0px, 720px, 330px, 0px);
+  height: 350px;
+  overflow: hidden;
   //position: fixed;
-  //z-index: -30000;
+  z-index: -30000;
 }
 
 // end of image - text settings
