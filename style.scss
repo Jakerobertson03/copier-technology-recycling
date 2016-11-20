@@ -320,10 +320,12 @@ li a:hover:not(.active) {
 }
 
 img.text-on-top {
-  height: 325px;
-  overflow: hidden;
   position: relative;
+  height: 325px;
+  width: 100%;
+  overflow: hidden;
   z-index: -30000;
+  object-fit: cover;
 }
 
 // end of image - text settings
