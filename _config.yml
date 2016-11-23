@@ -3,9 +3,9 @@
 #
 
 # Name of your site (displayed in the header)
-name: Ghost
+name: Copier Technology Recycling
 # Short bio or description (displayed in the header)
-description: Student from Dr Challoner's Grammar School
+description: Experts in trading and recycling copiers
  
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://www.froala.com/assets/icons/line/black/code-83f4c819967b7eb127aba52e9111ea49.png
@@ -17,10 +17,10 @@ avatar: https://www.froala.com/assets/icons/line/black/code-83f4c819967b7eb127ab
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: ben.lee@challoners.org
+  email: 
   facebook:
   flickr:
-  github: https://benleedcgs.github.io/
+  github: 
   instagram:
   linkedin:
   pinterest:
@@ -40,13 +40,13 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://benleedcgs.github.io
+url: https://jakerobertson03.github.io/copier-technology-recycling/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/benleeDCGS.github.io"
+baseurl: "/https://jakerobertson03.github.io/copier-technology-recycling/"
 
 #
 # !! You don't need to change any of the configuration flags below !!
